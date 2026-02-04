@@ -1,0 +1,21 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/Footer.astro";
+---
+
+<Default {...Astro.props} />
+<footer class="my-footer">
+    <p>
+        © Your Web. {new Date().getFullYear()}
+    </p>
+</footer>
+
+<style>
+    .my-footer {
+        border-top: 1px solid var(--sl-color-gray-5);
+        padding: 1rem 0;
+        text-align: center;
+        color: var(--sl-color-gray-3);
+        font-size: var(--sl-text-sm);
+    }
+</style>

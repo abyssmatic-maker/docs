@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=fallback');
+@import 'tailwindcss/theme.css';
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@100..900&display=fallback');
+
+@theme {
+    --light-font: 300;
+    --regular-font: 400;
+    --bold-font: 700;
+    --extrabold-font: 800;
+    --italic: italic;
+    --norm: normal;
+}
+
+.spline-monolight {
+    font-family: "Spline Sans Mono", ui-monospace, monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-variant-ligatures: none;
+}
+
+.spline-monoregular {
+    font-family: "Spline Sans Mono", ui-monospace, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-variant-ligatures: none;
+}
+
+.spline-monobold {
+    font-family: "Spline Sans Mono", ui-monospace, monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-variant-ligatures: none;
+}
